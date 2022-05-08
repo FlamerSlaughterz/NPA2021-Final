@@ -3,7 +3,7 @@ import time
 from ncclient import manager
 
 def auto_bot():
-    access_token = 'YTZiYWJhYWQtYWU4Yy00YmEzLWFlMTUtMTIyOTc4NmUzMjdlOWYzMjYyMDQtMjk5_P0A1_d068f91d-d29e-4173-a09d-365c3fb6e36e'
+    access_token = 'Mzk3MTU3NTgtZTRhZS00MGUzLTkyZGUtYjMzMWU2ZmYxNzE5YmJhNTc3ZDgtMGRm_P0A1_d068f91d-d29e-4173-a09d-365c3fb6e36e'
     room_id = 'Y2lzY29zcGFyazovL3VzL1JPT00vNjUwODkzMjAtY2QxOS0xMWVjLWE1NGUtNGQ2MmNhMWM4YmVl'
     url = 'https://webexapis.com/v1/messages'
     headers = {
@@ -38,7 +38,7 @@ def auto_bot():
 
     if checkans == "62070202":
         m = manager.connect(
-        host="10.0.15.14",
+        host="10.0.15.114",
         port=830,
         username="admin",
         password="cisco",

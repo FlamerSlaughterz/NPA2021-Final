@@ -27,7 +27,7 @@ def config_from_device(device_params, intf):
     return check_ans
         
 if __name__ == '__main__':
-    device_ip = "10.0.15.14"
+    device_ip = "10.0.15.114"
     username = "admin"
     password = "cisco"
 
